@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 203.3645.37\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Server_C_Version_.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Server_C_Version_.dir/objects.a @CMakeFiles\Server_C_Version_.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Server_C_Version_.dir/objects.a -Wl,--no-whole-archive  -o Server_C_Version_.exe -Wl,--out-implib,libServer_C_Version_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Server_C_Version_.dir\linklibs.rsp

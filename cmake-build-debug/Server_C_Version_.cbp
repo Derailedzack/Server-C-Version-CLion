@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server_C_Version_"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server_C_Version_">
+				<Option output="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Server_C_Version_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/admin/Downloads/lua-5.4.0.tar/lua-5.4.0/include"/>
+					<Add directory="C:/Users/admin/Downloads/SDL2-devel-2.0.12-mingw.tar/SDL2-devel-2.0.12-mingw/SDL2-2.0.12/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="C:/Users/admin/Downloads/SDL2_net-devel-2.0.1-mingw.tar/SDL2_net-devel-2.0.1-mingw/SDL2_net-2.0.1/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="C:/Users/admin/Downloads/glad/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server_C_Version_"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server_C_Version_/fast">
+				<Option output="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Server_C_Version_.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/admin/Downloads/lua-5.4.0.tar/lua-5.4.0/include"/>
+					<Add directory="C:/Users/admin/Downloads/SDL2-devel-2.0.12-mingw.tar/SDL2-devel-2.0.12-mingw/SDL2-2.0.12/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="C:/Users/admin/Downloads/SDL2_net-devel-2.0.1-mingw.tar/SDL2_net-devel-2.0.1-mingw/SDL2_net-2.0.1/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="C:/Users/admin/Downloads/glad/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server_C_Version_/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/admin/CLionProjects/Server(C Version)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/admin/CLionProjects/Server(C Version)/Entity.c">
+			<Option target="Server_C_Version_"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/CLionProjects/Server(C Version)/Entity.h">
+			<Option target="Server_C_Version_"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/CLionProjects/Server(C Version)/Server.c">
+			<Option target="Server_C_Version_"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/CLionProjects/Server(C Version)/Server.h">
+			<Option target="Server_C_Version_"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/CLionProjects/Server(C Version)/main.c">
+			<Option target="Server_C_Version_"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/CLionProjects/Server(C Version)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
